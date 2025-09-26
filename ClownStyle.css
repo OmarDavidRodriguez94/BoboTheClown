@@ -4,7 +4,7 @@
 
 body{
 	background-color:white;
-	font-family: 'inter';
+	font-family: 'inter';/*We wanted to use the same font of the Wireframe"*/
 }
 
 header{
@@ -38,7 +38,7 @@ h1#righthead{
 	padding-right: 10%;
 }
 
-a#hiperTop{
+.hiperTop{
   background-color: #1B958B;
 	text-decoration:none;
 	border-radius: 40px;
@@ -48,7 +48,7 @@ a#hiperTop{
 	color: black;
 }
 
-a#hiperTop:hover {
+.hiperTop:hover { /*Hover effect applied to a class*/
   font-size: 18px;
 	background-color: #4AD0C5;
 }
